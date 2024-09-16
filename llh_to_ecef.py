@@ -39,7 +39,7 @@ if len(sys.argv)==4:
 else:
   print(\
   'Usage: '\
-  'python3 llh_to_ecef.py lat_deg long_deg hae_km'\
+  'python3 llh_to_ecef.py lat_deg lon_deg hae_km'\
   )
   exit()
 
