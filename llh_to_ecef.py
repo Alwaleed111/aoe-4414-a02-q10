@@ -46,7 +46,7 @@ else:
 
 # write script below this line
 lat_rad = lat_deg*(math.pi/180) #Converting from radians to degrees
-long_rad = long_deg*(math.pi/180)#Converting from radians to degrees
+long_rad = lon_deg*(math.pi/180)#Converting from radians to degrees
 
 denom = calc_denom(e_E,lat_rad)
 C_E = R_E_KM/denom
