@@ -34,7 +34,7 @@ hae_km = float('nan') #Height Above Ellipsoid in Kilometers
 # parse script arguments
 if len(sys.argv)==4:
   lat_deg = float(sys.argv[1])
-  long_deg = float(sys.argv[2])
+  lon_deg = float(sys.argv[2])
   hae_km = float(sys.argv[3])
 else:
   print(\
